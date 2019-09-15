@@ -92,7 +92,9 @@ let rec get_param (kwd: Raw_option.t) (args: string list): Processed_option.t =
       get_param kwd rest
     else
       match rest with
-      | [] -> raise (No_param_for_option keyword)
+      | [] -> (match kwd with
+        | Bool _ -> B true
+        | _ -> raise (No_param_for_option keyword))
       | value :: _ -> Raw_option.process kwd value
 
 (* return (argc, argv) *)

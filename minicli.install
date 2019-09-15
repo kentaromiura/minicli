@@ -1,0 +1,23 @@
+lib: [
+  "_build/install/default/lib/minicli/CLI.ml"
+  "_build/install/default/lib/minicli/CLI.mli"
+  "_build/install/default/lib/minicli/META"
+  "_build/install/default/lib/minicli/dune-package"
+  "_build/install/default/lib/minicli/minicli.a"
+  "_build/install/default/lib/minicli/minicli.cma"
+  "_build/install/default/lib/minicli/minicli.cmi"
+  "_build/install/default/lib/minicli/minicli.cmt"
+  "_build/install/default/lib/minicli/minicli.cmx"
+  "_build/install/default/lib/minicli/minicli.cmxa"
+  "_build/install/default/lib/minicli/minicli.cmxs"
+  "_build/install/default/lib/minicli/minicli.ml"
+  "_build/install/default/lib/minicli/minicli__CLI.cmi"
+  "_build/install/default/lib/minicli/minicli__CLI.cmt"
+  "_build/install/default/lib/minicli/minicli__CLI.cmti"
+  "_build/install/default/lib/minicli/minicli__CLI.cmx"
+  "_build/install/default/lib/minicli/opam"
+]
+doc: [
+  "_build/install/default/doc/minicli/LICENSE"
+  "_build/install/default/doc/minicli/README.md"
+]
